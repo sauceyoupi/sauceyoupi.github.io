@@ -1,0 +1,21 @@
+
+body{
+	margin: 0px;
+}
+
+#background{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-image: url("cara.gif");
+}
+
+h1{
+	font-family: 'Oi', cursive;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 0px;
+	margin-top: 60px;
+	position: fixed;
+	z-index: 1000;
+}
