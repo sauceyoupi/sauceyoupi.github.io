@@ -1,5 +1,6 @@
 
 body{
+	font-family: 'Oi', cursive;
 	margin: 0px;
 }
 
@@ -11,11 +12,29 @@ body{
 }
 
 h1{
-	font-family: 'Oi', cursive;
 	left: 50%;
 	transform: translateX(-50%);
 	margin: 0px;
 	margin-top: 60px;
 	position: fixed;
 	z-index: 1000;
+	font-size: 50px;
+
+	  -webkit-text-fill-color: #a2804b; /* Will override color (regardless of order) */
+	  -webkit-text-stroke-width: 1px;
+	  -webkit-text-stroke-color: black;
+}
+
+a{
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+
+	z-index: 1000;
+
+	font-size: 50px;
+
+
+	bottom: 5vh;
+
 }
